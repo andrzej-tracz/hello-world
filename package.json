@@ -1,0 +1,27 @@
+{
+  "name": "hello-world",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsserver",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrzej-tracz/hello-world.git"
+  },
+  "author": "Andrzej Tracz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrzej-tracz/hello-world/issues"
+  },
+  "homepage": "https://github.com/andrzej-tracz/hello-world#readme",
+  "dependencies": {
+    "@types/jest": "^24.0.10",
+    "jest": "^24.3.1",
+    "ts-jest": "^24.0.0",
+    "typescript": "3.3.*"
+  }
+}
