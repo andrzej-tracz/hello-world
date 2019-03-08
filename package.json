@@ -1,10 +1,10 @@
 {
-  "name": "hello-world",
-  "version": "0.0.1",
+  "name": "@atracz/hello-world",
+  "version": "0.0.1-dev",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf lib && tsc",
     "start": "tsserver",
     "test": "jest"
   },
@@ -18,7 +18,7 @@
     "url": "https://github.com/andrzej-tracz/hello-world/issues"
   },
   "homepage": "https://github.com/andrzej-tracz/hello-world#readme",
-  "dependencies": {
+  "devDependencies": {
     "@types/jest": "^24.0.10",
     "jest": "^24.3.1",
     "ts-jest": "^24.0.0",
